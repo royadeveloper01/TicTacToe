@@ -132,7 +132,7 @@ void markBoard(char mark)
         square[9] = mark;
     else
     {
-        printf("Invalid move");
+        printf("wrong move");
 
         player--;
         //getch();
